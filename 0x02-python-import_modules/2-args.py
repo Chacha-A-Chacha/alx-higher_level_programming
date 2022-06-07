@@ -3,15 +3,14 @@
 if __name__ == "__main__":
 
     import sys
-    argv = sys.argv
-    argc = len(argv)
-    if argc == 1:
-        arg = "arguments."
+    num = len(sys.argv)
+    if num == 1:
+        print("{} arguments.".format(num - 1))
+    elif num == 2:
+        print("{} argument:".format(num - 1))
     else:
-        arg = "argument"
-        arg += "s:" if argc > 2 else ":"
+        print("{} arguments:".format(num - 1))
 
-    print(f"{argc - 1} {arg}")
+    for i in range(1, num):
+        print("{}: {}".format(i, sys.argv[i]))
 
-    for i in range(1, argc):
-        print(f"{i}: argv[i]")
