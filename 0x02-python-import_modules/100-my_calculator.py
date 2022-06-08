@@ -17,10 +17,10 @@ if __name__ == "__main__":
         "-": sub(a, b),
         "*": mul(a, b),
         "/": div(a, b), }
-    if argv[2]in ops.keys():
+    if argv[2] in ops.keys():
         a = int(argv[1])
         b = int(argv[3])
-        print("{:d} {} {:d} ={:d}".format(a, argv[2], b, ops[argv[2]](a, b)))
+        print("{:d} {} {:d} = {:d}".format(a, argv[2], b, ops[argv[2]](a, b)))
     else:
         print("Unkown operator. Available operators: +, -, * and / ")
         exit(1)
