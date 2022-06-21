@@ -1,8 +1,11 @@
-#!/usr/bin/pyhton3
+#!/usr/bin/python3
 '''
-define a class square 
+Define a class square.
+Classes:
+square
+'''
 
-'''
+
 class Square():
-    """A class to represent a sqaure"""
+    '''A class to represent a square.'''
     pass
