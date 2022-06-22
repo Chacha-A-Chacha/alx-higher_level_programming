@@ -1,13 +1,11 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 def safe_print_division(a, b):
-    '''try, except and finnaly for ZeroDivisionError'''
+    """Divide 2 integers and prints the result"""
 
     try:
-        division = a / b
-
+        divi = a/b
     except ZeroDivisionError:
-        division = None
-    
+        divi = None
     finally:
-        print("Inside resuslt: {}".format(division))
-        return division
+        print("Inside result: {}".format(divi))
+        return divi
