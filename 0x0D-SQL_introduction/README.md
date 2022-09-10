@@ -1,8 +1,15 @@
 # SQL - Introduction
 
+## Concepts
+For this project, we expect you to look at these concepts:
+
+* [Databases](./Databases.md)
+* Databases
+
+
 ## Resources:books:
 Read or watch:
-* [What is Database & SQL?](https://intranet.hbtn.io/rltoken/khEqMKp1PHvKpfO18d4fLQ)
+* [What is Database & SQL?](https://www.youtube.com/watch?v=FR4QIeZaPeM)
 * [A Basic MySQL Tutorial](https://intranet.hbtn.io/rltoken/qrONF5FZPsRxRJ2FkLVPcg)
 * [Basic SQL statements: DDL and DML](https://intranet.hbtn.io/rltoken/ibCYnC9CDgZg5NQQvccBWw)
 * [Basic queries: SQL and RA](https://intranet.hbtn.io/rltoken/yelYhpf7l0FcRIPCVfnMLw)
