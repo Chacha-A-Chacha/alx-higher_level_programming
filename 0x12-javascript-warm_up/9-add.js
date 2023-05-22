@@ -9,6 +9,9 @@ const b = parseInt(process.argv[3]);
 if (isNaN(a , b)) {
     console.log('Please enter a number');
 }
+else {
+    console.log(a + b);
+}
 
 function add (a, b) {
   return a + b;
