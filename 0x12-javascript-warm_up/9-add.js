@@ -10,7 +10,7 @@ if (isNaN(a , b)) {
     console.log('Please enter a number');
 }
 else {
-    console.log(a + b);
+    console.log(add(a, b));
 }
 
 function add (a, b) {
