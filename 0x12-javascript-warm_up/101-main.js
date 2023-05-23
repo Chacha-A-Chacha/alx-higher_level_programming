@@ -7,4 +7,5 @@ callMeMoby(3, function() {
 
 const { call_me_moby }  = require('./101-call_me_moby');
 call_me_moby(3, function() {
-    console.log('C is fun ')
+    console.log('C is fun ');
+})
