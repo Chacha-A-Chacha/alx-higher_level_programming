@@ -8,9 +8,10 @@ module.exports = class Square extends require('./5-square.js') {
     }
   }
 };
-if (require.main === module) {
-    const s = new Square(5);
-    s.charPrint('*');
-    s.charPrint('*', ' ');
-    s.charPrint('*', ' ', ' ');
-}
+
+//if (require.main === module) {
+//    const s = new Square(5);
+//    s.charPrint('*');
+//    s.charPrint('*', ' ');
+//   s.charPrint('*', ' ', ' ');
+//}
