@@ -19,7 +19,7 @@ console.log(Dictn);
 const dict =require('./101-data').dict;
 const newDict = {};
 
-Object.keys(dict).map(() => (key, index) {
+Object.keys(dict).map((key, index) => {
     if (newDict[dict[key]] === undefined) {
         newDict[dict[key]] = [];
     }
